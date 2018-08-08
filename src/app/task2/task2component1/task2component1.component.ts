@@ -19,7 +19,7 @@ export class Task2component1Component implements OnInit {
   values = '';
 
   onKey(event: any) { // without type info
-    this.values += event.target.value + ' | ';
+    this.values += event.target.value ;
   }
 }
 
