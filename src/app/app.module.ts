@@ -14,10 +14,11 @@ import { ChildcomponentComponent } from './task4/parentcomponent/childcomponent/
 import { Task5parentcomponentComponent } from './task5/task5parentcomponent/task5parentcomponent.component';
 import { Task5childcomponentComponent } from './task5/task5parentcomponent/task5childcomponent/task5childcomponent.component';
 import { Task6parentComponent } from './task6/task6parent/task6parent.component';
-import { Task6ChildComponent } from './task6/task6parent/task6-child/task6-child.component';
-import { SubchildComponent } from './task6/task6parent/task6Child/subchild/subchild.component';
+import{SubchildComponent} from './task6/task6parent/task6child/subchild/subchild.component'
 import { Task6childComponent } from './task6/task6parent/task6child/task6child.component';
-
+import { Sibling1Component } from './task7/sibling1/sibling1.component';
+import { Sibling2Component } from './task7/sibling2/sibling2.component';
+import{Task7parentComponent}from './task7/task7parent/task7parent.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,9 +32,11 @@ import { Task6childComponent } from './task6/task6parent/task6child/task6child.c
     Task5parentcomponentComponent,
     Task5childcomponentComponent,
     Task6parentComponent,
-    Task6ChildComponent,
     SubchildComponent,
     Task6childComponent,
+    Sibling1Component,
+    Sibling2Component,
+    Task7parentComponent
    
   ],
   imports: [

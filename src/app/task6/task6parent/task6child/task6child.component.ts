@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {SubchildComponent} from './subchild/subchild.component'
 @Component({
   selector: 'app-task6child',
   templateUrl: './task6child.component.html',
