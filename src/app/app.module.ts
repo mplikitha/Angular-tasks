@@ -11,6 +11,12 @@ import { Task3component1Component } from './task3/task3component1/task3component
 import { Task3component2Component } from './task3/task3component2/task3component2.component';
 import { ParentcomponentComponent } from './task4/parentcomponent/parentcomponent.component';
 import { ChildcomponentComponent } from './task4/parentcomponent/childcomponent/childcomponent.component';
+import { Task5parentcomponentComponent } from './task5/task5parentcomponent/task5parentcomponent.component';
+import { Task5childcomponentComponent } from './task5/task5parentcomponent/task5childcomponent/task5childcomponent.component';
+import { Task6parentComponent } from './task6/task6parent/task6parent.component';
+import { Task6ChildComponent } from './task6/task6parent/task6-child/task6-child.component';
+import { SubchildComponent } from './task6/task6parent/task6Child/subchild/subchild.component';
+import { Task6childComponent } from './task6/task6parent/task6child/task6child.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +28,12 @@ import { ChildcomponentComponent } from './task4/parentcomponent/childcomponent/
     Task3component2Component,
     ParentcomponentComponent,
     ChildcomponentComponent,
+    Task5parentcomponentComponent,
+    Task5childcomponentComponent,
+    Task6parentComponent,
+    Task6ChildComponent,
+    SubchildComponent,
+    Task6childComponent,
    
   ],
   imports: [

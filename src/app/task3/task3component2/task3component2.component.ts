@@ -2,7 +2,7 @@ import { Component, Input  } from '@angular/core';
  
 @Component({
     selector: 'child-component',
-    template: `<h2>second Component</h2>
+    template: `<h4>second Component</h4>
                current count is {{ count }}
     `
 })
