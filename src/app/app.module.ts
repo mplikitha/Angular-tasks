@@ -8,7 +8,10 @@ import { Component1Component } from './task1/component1/component1.component';
 import { Task2component1Component } from './task2/task2component1/task2component1.component';
 import {Task2Module} from './task2/task2.module';
 import { Task3component1Component } from './task3/task3component1/task3component1.component';
-import { Task3component2Component } from './task3/task3component2/task3component2.component'
+import { Task3component2Component } from './task3/task3component2/task3component2.component';
+import { ParentcomponentComponent } from './task4/parentcomponent/parentcomponent.component';
+import { ChildcomponentComponent } from './task4/parentcomponent/childcomponent/childcomponent.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,10 @@ import { Task3component2Component } from './task3/task3component2/task3component
     Component1Component,
     Task2component1Component,
     Task3component1Component,
-    Task3component2Component
+    Task3component2Component,
+    ParentcomponentComponent,
+    ChildcomponentComponent,
+   
   ],
   imports: [
     BrowserModule
